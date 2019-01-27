@@ -1,0 +1,16 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Montserrat:400,700');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Partials
+@import "partials/headings";
+
+// Pages
+@import "pages/welcome";
+
