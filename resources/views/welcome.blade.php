@@ -45,16 +45,15 @@
                             We pride ourselves on our ability to tailor our solutions to your business, whether that's building
                             booking software to deal with complex logistics or helping you consolidate a sprawling ad campaign into
                             one manageable piece. We can work with you to find out what is best for your business, and design
-                            something resilient for the future.
+                            something that is both resilient and reliable.
                         </p>
                     </div>
                     <div class="my-5">
                         <h2>Retainers & Contracting</h2>
                         <p class="text-justify">
                             If you own or run an existing online system that you feel needs modernisation or on going maintenance
-                            then get in touch, we have extensive experience working on existing and legacy systems to help keep
-                            businesses running and can help improve and upgrade an existing codebase to help your system reflect
-                            modern demands.
+                            then get in touch. We have extensive experience working with modern and legacy systems that power businesses,
+                            and can help improve and upgrade an existing codebase to help your system reflect modern demands.
                         </p>
                     </div>
                 </div>
@@ -68,7 +67,7 @@
             <p class="text-justify">
                 From small business websites to large corporate applications, we have years of wide ranging expertise to
                 design and build the perfect fit for your business. With completed projects for a wide range of UK-wide startups
-                and large businesses. We are well places to deliver powerful, secure and robust applications at an affordable
+                and large businesses. We are well placed to deliver powerful, secure and robust applications at an affordable
                 rate.
             </p>
         </div>
