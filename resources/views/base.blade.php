@@ -17,12 +17,12 @@
 
         <meta property="og:title" content="Harewood Studios">
         <meta property="og:description" content="Reliable and Affordable Web Development in the Heart of North Nottinghamshire.">
-        <meta property="og:image" content="{{ asset('/images/share_logo_1.png') }}">
+        <meta property="og:image" content="{{ asset('/images/share_logo_3.png') }}">
         <meta property="og:url" content="https://harewood.io/">
 
         <meta name="twitter:title" content="Harewood Studios">
         <meta name="twitter:description" content="Reliable and Affordable Web Development in the Heart of North Nottinghamshire.">
-        <meta name="twitter:image" content="{{ asset('/images/share_logo_1.png') }}">
+        <meta name="twitter:image" content="{{ asset('/images/share_logo_3.png') }}">
         <meta name="twitter:card" content="summary_large_image">
 
     </head>
