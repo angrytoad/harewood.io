@@ -14,6 +14,17 @@
         <link rel="stylesheet" href="{{ asset('css/app.css') }}" />
 
         <script src='https://www.google.com/recaptcha/api.js?render=6LflCo4UAAAAAIPm6dLUnTYyomKmqsKWAYe8HYmH'></script>
+
+        <meta property="og:title" content="Harewood Studios">
+        <meta property="og:description" content="Reliable and Affordable Web Development in the Heart of North Nottinghamshire.">
+        <meta property="og:image" content="https://harewood.io/svg/logo_1.svg">
+        <meta property="og:url" content="https://harewood.io/">
+
+        <meta name="twitter:title" content="Harewood Studios">
+        <meta name="twitter:description" content="Reliable and Affordable Web Development in the Heart of North Nottinghamshire.">
+        <meta name="twitter:image" content="https://harewood.io/svg/logo_1.svg">
+        <meta name="twitter:card" content="https://harewood.io/svg/logo_2.svg">
+
     </head>
     <body>
         @include('partials.navbar')
