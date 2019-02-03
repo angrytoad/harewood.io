@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Crimson+Text|Montserrat:400,700);@charset "UTF-8";
 
+.grecaptcha-badge {
+  display: none;
+}
+
 /*!
  * Bootstrap v4.2.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -72,7 +76,7 @@ body {
   line-height: 2;
   color: #212529;
   text-align: left;
-  background-color: #F0F0F0;
+  background-color: #FFFFFF;
 }
 
 [tabindex="-1"]:focus {
@@ -508,7 +512,7 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #F0F0F0;
+  background-color: #FFFFFF;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
@@ -1631,7 +1635,7 @@ pre code {
 }
 
 .table .table {
-  background-color: #F0F0F0;
+  background-color: #FFFFFF;
 }
 
 .table-sm th,
@@ -4110,15 +4114,15 @@ input[type=button].btn-block {
 }
 
 .custom-range:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 1px #F0F0F0, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
 .custom-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #F0F0F0, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
 .custom-range:focus::-ms-thumb {
-  box-shadow: 0 0 0 1px #F0F0F0, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
 .custom-range::-moz-focus-outer {
@@ -4318,8 +4322,8 @@ input[type=button].btn-block {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
-  background-color: #F0F0F0;
-  border-color: #dee2e6 #dee2e6 #F0F0F0;
+  background-color: #FFFFFF;
+  border-color: #dee2e6 #dee2e6 #FFFFFF;
 }
 
 .nav-tabs .dropdown-menu {
@@ -10491,6 +10495,10 @@ a.text-dark:focus {
   }
 }
 
+body {
+  padding-top: calc(75px + 1rem);
+}
+
 h1,
 h2,
 h3,
@@ -10500,7 +10508,132 @@ h6 {
   font-family: "Crimson Text", serif;
 }
 
-#welcome > .row {
-  height: 100vh;
+.navbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 999;
+  background-color: #f0f0f0;
+  height: 75px;
+}
+
+.navbar .navbar-brand img {
+  width: 38px;
+}
+
+.navbar .navbar-nav .active {
+  font-weight: bold;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 991.98px) {
+  .navbar .navbar-collapse {
+    border: 1px solid #B3A394;
+    background-color: #F0F0F0;
+  }
+}
+
+#footer {
+  background-color: #F0F0F0;
+}
+
+#footer .active {
+  font-weight: bold;
+}
+
+.btn {
+  background: #355437;
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  transition: all 0.2s;
+}
+
+#welcome #banner {
+  background-color: #F0F0F0;
+  margin-top: -1rem;
+  height: calc(100vh - 75px);
+  position: relative;
+  border-bottom: 10px solid #355437;
+  overflow: hidden;
+}
+
+#welcome #banner .col {
+  position: relative;
+  z-index: 1;
+}
+
+#welcome #banner .col h1 {
+  font-style: italic;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+}
+
+@media (max-width: 991.98px) {
+  #welcome #banner .col h1 {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #welcome #banner .col h1 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #welcome #banner .col h1 {
+    font-size: 22px;
+  }
+}
+
+#welcome #banner #tree {
+  position: absolute;
+  z-index: 0;
+  bottom: -20px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  opacity: 0.5;
+}
+
+@media (max-width: 991.98px) {
+  #welcome #banner #tree {
+    display: none;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #welcome #banner {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+#welcome #preamble {
+  border-bottom: 10px solid #355437;
+}
+
+#welcome #services {
+  background: #F0F0F0;
+  border-bottom: 10px solid #355437;
+}
+
+#welcome #services img {
+  max-width: 80px;
+  width: 100%;
+}
+
+#welcome #get-in-touch {
+  background-image: url("/images/tree-bark.png");
+  background-color: #B3A394;
+  border-bottom: 10px solid #355437;
+  height: 400px;
 }
 

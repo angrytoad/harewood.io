@@ -5,11 +5,18 @@
 // Variables
 @import 'variables';
 
+// Overrides
+@import "overrides";
+
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
 // Partials
+@import "partials/base";
 @import "partials/headings";
+@import "partials/navbar";
+@import "partials/footer";
+@import "partials/buttons";
 
 // Pages
 @import "pages/welcome";

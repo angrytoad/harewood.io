@@ -1,10 +1,20 @@
 
-// Body
-$body-bg: #F0F0F0;
 
+
+// Body
+$body-bg: #FFFFFF;
+
+// Colors
+$dark-green: #355437;
+$light-brown: #B3A394;
+$light-gray: #F0F0F0;
 
 // Typography
 $font-family-sans-serif: 'Montserrat', sans-serif;
 $font-family-serif: 'Crimson Text', serif;
 $font-size-base: 1rem;
 $line-height-base: 2;
+
+// Structure
+$thick-border: 10px solid $dark-green;
+$navbar-height:75px;
