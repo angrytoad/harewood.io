@@ -4,7 +4,7 @@
             <div class="row d-flex align-items-center">
                 <div class="col text-center">
                     <a href="{{ route('welcome') }}" class="d-block text-dark {{ active('welcome') }}">
-                        Portfolio
+                        Harewood Studios
                     </a>
                     <a href="{{ route('get-in-touch') }}" class="d-block text-dark {{ active('get-in-touch') }}">
                         Get in Touch
